@@ -1,0 +1,144 @@
+[2018-02-16 11:25:56.127] [I] vCAC VM properties :
+   Cafe.Shim.VirtualMachine.TotalStorageSize : 100
+   Custom.AddADUserGroup.Execute : true
+   Custom.ComponentMachine.HostnameScheme : {LOC}-{VirtualMachine.Name.Environment}{GRP}{Markel.Function}{###}
+   Custom.SetCustomHostname.Execute : true
+   Extensibility.Lifecycle.Properties.VMPSMasterWorkflow32.MachineProvisioned : *
+   Extensibility.Lifecycle.Properties.VMPSMasterWorkflow32.Requested : *
+   GRP : GTS
+   Hostname : VA1-DGTSORA002
+   LOC : VA1
+   Markel.Access : rhoppenjans@markeldevops.com
+   Markel.BusinessRequirements : test vm
+   Markel.ChangeRequestNumber : 12345
+   Markel.Comments : test Comments
+   Markel.Domain : test.mkltestna.com
+   Markel.Environment : Non production
+   Markel.Exceptions : false
+   Markel.FrontEndforBusinessUsers : true
+   Markel.Function : ORA
+   Markel.GoLiveDate : 1519045200000
+   Markel.Help : 
+   Markel.ITGroup : Corporation Applications
+   Markel.ITSubGroup : Billing and Collections
+   Markel.InternetAccess : Yes
+   Markel.InternetExposure : Internal
+   Markel.MainUser : Terry Hoppenjans
+   Markel.PrimaryApplication : * Not listed (add in comments)
+   Markel.ResponsibleUser : Ryan G
+   Markel.SecondaryApplication : * Not listed (add in comments)
+   Markel.SensitiveInformation : No
+   Markel.ServerandApplicationMonitoring : Standard
+   VirtualMachine.Admin.AgentID : 32390342-435c-fbf2-6441-ec46a02f6744
+   VirtualMachine.Admin.TotalDiskUsage : 102400
+   VirtualMachine.Admin.UUID : 50031730-7e5b-a001-8b26-411b6ed31689
+   VirtualMachine.CPU.Count : 1
+   VirtualMachine.Cafe.Blueprint.Component.Cluster.Index : 0
+   VirtualMachine.Cafe.Blueprint.Component.Id : vSphere__vCenter__Machine_1
+   VirtualMachine.Cafe.Blueprint.Component.TypeId : Infrastructure.CatalogItem.Machine.Virtual.vSphere
+   VirtualMachine.Cafe.Blueprint.Id : TerryTest2012
+   VirtualMachine.Cafe.Blueprint.Name : Terry Test 2012
+   VirtualMachine.Disk0.DeviceID : SCSI (0:0)
+   VirtualMachine.Disk0.ExternalID : 6000C291-4fda-cdeb-97f4-33182b52a50b
+   VirtualMachine.Disk0.IsClone : true
+   VirtualMachine.Disk0.IsFixed : False
+   VirtualMachine.Disk0.Label : Hard disk 1
+   VirtualMachine.Disk0.Name : Hard disk 1
+   VirtualMachine.Disk0.Size : 100
+   VirtualMachine.Disk0.Storage : RIC_7335_002
+   VirtualMachine.Memory.Size : 2048
+   VirtualMachine.Name.Environment : D
+   VirtualMachine.Network0.Address : 10.65.26.101
+   VirtualMachine.Network0.AddressType : Static
+   VirtualMachine.Network0.DnsSearchSuffixes : markeldevops.com
+   VirtualMachine.Network0.DnsSuffix : markeldevops.com
+   VirtualMachine.Network0.Gateway : 10.65.26.10
+   VirtualMachine.Network0.MacAddress : 00:50:56:83:c8:6e
+   VirtualMachine.Network0.Name : VLAN-206
+   VirtualMachine.Network0.NetworkName : network206
+   VirtualMachine.Network0.NetworkProfileName : network206
+   VirtualMachine.Network0.PrimaryDns : 10.65.28.160
+   VirtualMachine.Network0.SubnetMask : 255.255.255.0
+   VirtualMachine.Storage.Name : RIC_7335_002
+   Vrm.ProxyAgent.Uri : https://va1-topsvra001.markeldevops.com/VMPS2Proxy
+   __Cafe.Request.BlueprintType : 1
+   __Cafe.Root.Request.Id : d3a57c17-7e6b-42f3-92d8-4d76d7132d47
+   __Clone_Type : CloneWorkflow
+   __InterfaceType : vSphere
+   __Legacy.Workflow.ImpersonatingUser : 
+   __Legacy.Workflow.User : configurationadmin@vsphere.local
+   __Notes : test
+   __VirtualMachine.Allocation.InitialMachineState : SubmittingRequest
+   __VirtualMachine.ProvisioningWorkflowName : CloneWorkflow
+   __api.request.callback.service.id : f9ce33fa-dae4-4e78-b476-612d24cd3e35
+   __api.request.id : 1372592f-9c4d-49a0-a9db-ede5c4ef7c5d
+   __clonefrom : Win2012R2DC
+   __clonefromid : b0ec58fe-52f1-43bc-9406-b49b921356e8
+   __clonespec : Markel
+   __iaas_request_binding_id : 742b9ad9-c9f7-4f6a-a71a-d31626ee1f5b
+   __request_reason : 
+   __reservationPolicyID : c83bb0d7-e3af-41c6-a4ed-d874b3d5351a
+   __trace_id : gOauZPQ3
+   _number_of_instances : 1
+   callExternalWorkflowActivityPostBuildingMachine : False
+   trace_id : gOauZPQ3
+
+[2018-02-16 11:25:56.129] [I] VRA Hostname: VA1-DGTSORA002
+[2018-02-16 11:25:56.130] [I] workflowUser : configurationadmin
+[2018-02-16 11:25:56.162] [I] Trying to resolve a vCenter VM with UUID 50031730-7e5b-a001-8b26-411b6ed31689
+[2018-02-16 11:25:56.177] [I] Resolved vCenter VM VA1-DGTSORA002
+[2018-02-16 11:25:56.355] [I] Replacing variable [Trustee] with value group
+[2018-02-16 11:25:56.357] [I] Replacing variable [Computer] with value computerName
+[2018-02-16 11:25:56.361] [I] New variable [Trustee] value 'RG VA1-DGTSORA002 Admin'
+[2018-02-16 11:25:56.363] [I] New variable [Computer] value 'VA1-DGTSORA002'
+[2018-02-16 11:25:56.366] [I] Exiting
+[2018-02-16 11:25:56.522] [I] Replacing variable [Trustee] with value 'RG VA1-DGTSORA002 Admin'
+[2018-02-16 11:25:56.523] [I] Replacing variable [Computer] with value 'VA1-DGTSORA002'
+[2018-02-16 11:25:56.524] [I] Updated script content 
+function Resolve-SamAccount {
+param(
+    [string]
+        $SamAccount,
+    [boolean]
+        $Exit
+)
+    process {
+        try
+        {
+            $ADResolve = ([adsisearcher]"(samaccountname=$Trustee)").findone().properties['samaccountname']
+        }
+        catch
+        {
+            $ADResolve = $null
+        }
+
+        if (!$ADResolve) {
+            "User `'$SamAccount`' not found in AD, please input correct SAM Account" | out-file -FilePath 'c:/Windows/Temp/AddUserVro.log' -Append
+            if ($Exit) {
+                exit
+            }
+        }
+        $ADResolve
+    }
+}
+
+$Trustee = 'RG VA1-DGTSORA002 Admin'
+$Computer = 'VA1-DGTSORA002'
+
+$ADResolved = (Resolve-SamAccount -SamAccount $Trustee -Exit:$true)
+$Trustee = 'WinNT://',"$env:userdomain",'/',$ADResolved -join ''
+"Starting Script to add $Trustee to Local Administrator" | Out-File -FilePath 'c:/Windows/Temp/AddUserVro.log'
+
+[string[]]$Computer = $Computer.Split(',')
+$Computer | ForEach-Object {
+   $_
+   "Adding `'$ADResolved`' to Administrators group on `'$_`'" | out-file -FilePath 'c:/Windows/Temp/AddUserVro.log' -Append
+   try {
+      ([ADSI]"WinNT://$_/Administrators,group").add($Trustee)
+      "Successfully completed command for `'$ADResolved`' on `'$_`'" | Out-File -FilePath 'c:/Windows/Temp/AddUserVro.log' -Append
+   } catch {
+      "ERROR: $_" | out-file -FilePath 'c:/Windows/Temp/AddUserVro.log' -Append
+   }   
+}
+[2018-02-16 11:26:16.649] [I] VA1-DGTSORA002
+
